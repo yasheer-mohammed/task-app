@@ -1,4 +1,4 @@
-# TaskBoard — Full-stack Todo App (React + Tailwind + Node + MySQL)
+# TaskBoard — Full-stack Todo App (React + Tailwind + Node + PostgresQL)
 
 This repository contains a ready-to-run full-stack task management app with:
 - Authentication (JWT + bcrypt)
@@ -10,7 +10,7 @@ This repository contains a ready-to-run full-stack task management app with:
 
 ## Quickstart
 
-1. Setup MySQL and run `backend/migrations.sql` to create the database.
+1. Setup PostgresQL and create the database for the app.
 2. Copy `backend/.env.example` to `backend/.env` and fill values.
 3. Start backend:
    ```
